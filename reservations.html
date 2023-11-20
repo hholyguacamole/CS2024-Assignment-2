@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Sushi Mania-Reservations</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@700&family=Montserrat:wght@300&family=Roboto&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/Logo.png" alt="Sushi Mania" style="width: 20%; padding-left: 50px;"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#banner2">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            <nav>
+    </header>
+    <div>
+        <h1 style="font-family: 'Lexend Deca'; color: lightgray; padding: 10px; text-align: center; font-size: 50px;">Reservation</h1>
+        <h4 style="font-family: 'Montserrat'; text-align: center; color: whitesmoke;">
+            All fields are required.<br>
+            We will send the confirmation email to the email stated below.</h4>
+        <form action="#" class="formcontainer">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <label for="party-size">Party Size:</label>
+            <input type="number" id="party-size" name="party-size" min="1" required><br><br>
+
+            <label for="special-requests">Special Requests:</label>
+            <textarea id="special-requests" name="special-requests" rows="4" cols="51"></textarea><br><br>
+            
+            <input type="submit" value="Make Reservation">
+        </form>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="columnend">
+                placeholder
+            </div>
+            <div class="column">
+                <h1>Our Location</h1>
+                <p>
+                    190 Middle Road<br>
+                    Fortune Centre #03-01<br>
+                    Singapore 188979<br>
+                    Nearest MRT Station: Bugis
+                </p>
+            </div>
+            <div class="column">
+                <p>
+                    <a href="index.html"><img src="images/Logo.png" alt="Sushi Mania" width="65%"><br></a>
+                    <a href="https://www.facebook.com/NTUsg/" target="_blank"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                    <a href="https://www.instagram.com/ntu_sg/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="mailto:hello@sushimania@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-lg"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=6587654321&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+                </p>
+            </div>
+            <div class="column">
+                <h1>Opening Hours</h1>
+                <p>
+                    Monday-Saturday: 10:00-22:00<br>
+                    Closed on Sundays.<br>
+                    <a href="reservations.html"><button class="reservebutton">Reserve Now!</button></a>
+                </p>
+            </div>
+            <div class="columnend">
+                placeholder
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

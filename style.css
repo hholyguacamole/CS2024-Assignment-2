@@ -11,6 +11,7 @@ header {
     top: 0;
     width: 100%;
     display: flex;
+    z-index: 1;
 }
 
 nav {
@@ -68,6 +69,7 @@ body {
     display: inline-block;
     font-size: 15px;
     margin: 8px 2px;
+    z-index: 2;
 }
 
 .bannerreservebutton:hover {
@@ -86,6 +88,7 @@ body {
     display: inline-block;
     font-size: 15px;
     margin: 8px 2px;
+    z-index; 2;
 }
 
 .bannermenubutton:hover {
